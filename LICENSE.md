@@ -1,0 +1,19 @@
+Phon3x-cmdpad - Professional Steganography Tool
+Copyright (C) 2026 Phon3x
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ADDITIONAL TERMS:
+- Attribution: When sharing or using this software, you must provide 
+  attribution to "Phon3x" and link to the official repository:
+  https://github.com/Phon3x/phon3x-cmdpad
+  
+- Non-commercial: Commercial use requires explicit permission from the author.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
