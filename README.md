@@ -52,8 +52,7 @@ Designed for Linux (Wayland-safe) and Windows.
 ---
 ## 🖥️ Preview
 
-> Minimal, terminal-centric UI  
-> _(Screenshots coming soon)_
+> ![Demo](https://raw.githubusercontent.com/Phon3x/phon3x-cmdpad/main/Documents/assets/demo.gif)
 
 ---
 ## 📦 Installation
@@ -63,7 +62,14 @@ Designed for Linux (Wayland-safe) and Windows.
 - Linux
 - Python **3.10+**
 - Qt (via PySide6)
-### See [`INSTALL.md`](https://github.com/Phon3x/phon3x-cmdpad/blob/main/Documents/INSTALL.md).
+
+### Installation Guides
+
+- 📘 **Standard installation**  
+  See [`INSTALL.md`](Documents/INSTALL.md)
+
+- 🔁 **Run as a system service**  
+  See [`SETUP-AS-SERVICE.md`](Documents/SETUP-AS-SERVICE.md)
 
 ---
 ## ⌨ Keyboard Shortcuts
