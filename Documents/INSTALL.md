@@ -42,10 +42,13 @@ source ~/.bashrc
 ```bash
 pyenv install 3.12.12
 ```
-
-Inside the cmdpad project directory:
+Clone repository
 ```bash
+git clone https://github.com/Phon3x/phon3x-cmdpad.git
 cd phon3x-cmdpad
+```
+Inside the phon3x-cmdpad project directory:
+```bash
 pyenv virtualenv 3.12.12 cmdpad
 pyenv local cmdpad
 ```
