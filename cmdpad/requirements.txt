@@ -1,0 +1,10 @@
+evdev==1.9.2
+pynput==1.8.1
+pyperclip==1.11.0
+PySide6==6.10.1
+PySide6_Addons==6.10.1
+PySide6_Essentials==6.10.1
+python-xlib==0.33
+RapidFuzz==3.14.3
+shiboken6==6.10.1
+six==1.17.0
