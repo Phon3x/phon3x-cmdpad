@@ -57,19 +57,56 @@ Designed for Linux (Wayland-safe) and Windows.
 ---
 ## 📦 Installation
 
-### Requirements
+> 💡 **Recommended:** Use the automatic installer.  
+> It installs everything in **user space**, uses **virtualenv**, and does **not modify system Python**.
 
-- Linux
-- Python **3.10+**
-- Qt (via PySide6)
+### 🚀 Automatic Installation (Recommended)
 
-### Installation Guides
+You can install **Phon3x-cmdPad** with a single command.  
+The installer will automatically clone the repository and set everything up.
+
+#### ⚡ Quick Installation
+```bash
+curl -fsSL https://raw.githubusercontent.com/Phon3x/phon3x-cmdpad/main/Installer/AUTO_INSTALL.sh | bash
+```
+**This will**:
+
+- Detect your Linux distribution
+- Install required system dependencies
+- Clone the repository automatically
+- Create a Python virtual environment
+- Install Python dependencies
+- Create a global cmdpad command
+- (Optional) Enable systemd user service
+- (Optional) Add GNOME shortcut Ctrl + Alt + C
+
+#### 🗑️ Uninstall
+```bash
+curl -fsSL https://raw.githubusercontent.com/Phon3x/phon3x-cmdpad/main/Installer/AUTO_UNINSTALL.sh | bash
+```
+**This safely removes**:
+
+- cmdpad launcher
+- systemd user service (if enabled)
+- GNOME shortcut (if configured)
+- Project files (optional)
+
+✅ No system files are modified
+✅ Safe to run multiple times
+
+
+### 🧰 Manual Installation (Advanced / Custom Setup)
+
+_If you prefer full control or want to use a custom Python environment (e.g. pyenv), manual installation is also supported._
 
 - 📘 **Standard installation**  
   See [`INSTALL.md`](Documents/INSTALL.md)
 
 - 🔁 **Run as a system service**  
   See [`SETUP-AS-SERVICE.md`](Documents/SETUP-AS-SERVICE.md)
+
+
+> ⚠️ Manual guides are intended for advanced users. They may use custom Python environments (such as pyenv) and require more steps.
 
 ---
 ## ⌨ Keyboard Shortcuts
