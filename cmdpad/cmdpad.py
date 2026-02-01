@@ -1,4 +1,4 @@
-#!/home/phon3x/.pyenv/versions/3.12.12/envs/cmdpad/bin/python
+#!/usr/bin/env python3
 
 import sys
 import os
